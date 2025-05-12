@@ -1,6 +1,6 @@
 "use client";
 
-import useAi from "reactjs-useai-test1";
+import useAi from "reactjs-useai";
 import { useState } from "react";
 
 export default function Home() {
