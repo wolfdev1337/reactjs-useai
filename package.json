@@ -1,0 +1,42 @@
+{
+  "name": "reactjs-useai",
+  "version": "1.0.0",
+  "description": "A React hook to easily call AI endpoints with loading and error handling.",
+  "keywords": [
+    "react",
+    "hook",
+    "ai",
+    "api",
+    "useAi",
+    "reactjs"
+  ],
+  "main": "dist/useAi.js",
+  "types": "dist/useAi.d.ts",
+  "license": "MIT",
+  "author": "Wolf Developer",
+  "scripts": {
+    "build": "jest && tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfdev1337/reactjs-useai.git"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18 || ^19",
+    "@types/react-dom": "^18 || ^19",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  }
+}
